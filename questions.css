@@ -1,0 +1,42 @@
+.main-button {
+  background-color: white;
+  font-family: Georgia;
+  font-size: 30px;
+  width: 20%;
+  margin: auto;
+  border: none;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.main-button:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.main-button:focus {
+  outline: none;
+}
+
+body {
+  background-color: black;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: white;
+  font-size: 30px;
+  font-family: Georgia;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.question {
+  margin: auto;
+  margin-top: 50px;
+  font-size: 18px;
+  font-family: Georgia;
+  color: white;
+}
