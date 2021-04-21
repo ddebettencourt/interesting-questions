@@ -47,3 +47,12 @@ body {
   text-align: center;
   width: 80%;
 }
+
+@media screen and (orientation: portrait) {
+  .question {
+    font-size: 100px;
+  }
+  .main-button {
+    height: 200px;
+  }
+}
