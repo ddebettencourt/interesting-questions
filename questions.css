@@ -1,12 +1,14 @@
 .main-button {
   background-color: white;
   font-family: Georgia;
-  font-size: 2vw;
+  font-size: 50px;
   width: 50%;
+  height: 20%;
   margin: auto;
   border: none;
   border-radius: 10px;
   margin-top: 30px;
+  padding: 20px;
 }
 .main-button:hover {
   opacity: 70%;
@@ -27,16 +29,18 @@ body {
 
 .title {
   color: white;
-  font-size: 3vw;
+  font-size: 60px;
   font-family: Georgia;
   margin: auto;
   margin-top: 50px;
+  word-wrap: normal;
+  text-align: center;
 }
 
 .question {
   margin: auto;
   margin-top: 75px;
-  font-size: 2.5vw;
+  font-size: 50px;
   font-family: Georgia;
   color: white;
   word-wrap: normal;
