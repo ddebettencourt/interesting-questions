@@ -85,6 +85,7 @@ option {
     font-size: 80px;
   }
   #decks {
+    width: 520px;
     font-size: 80px;
     height: 95px;
   }
