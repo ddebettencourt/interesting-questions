@@ -47,7 +47,31 @@ body {
   text-align: center;
   width: 80%;
 }
-
+.horiz-container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 50px;
+}
+#deck-text {
+  color: white;
+  font-family: Georgia;
+  font-size: 50px;
+}
+#decks {
+  width: 350px;
+  font-size: 50px;
+  color: white;
+  background-color: black;
+  font-family: Georgia;
+  height: 60px;
+  margin: auto;
+  margin-left: 30px;
+}
+option {
+  font-family: Georgia;
+  font-size: 50px;
+}
 @media screen and (orientation: portrait) {
   .question {
     font-size: 80px;

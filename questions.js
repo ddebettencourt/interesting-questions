@@ -5,13 +5,23 @@ questionDeck2 = [];
 // last call
 questionDeck3 = [];
 
+questionsArray = [];
 let reader = new FileReader();
 
 reader.readAsText("./questions.txt");
 
 function getQuestion() {
   loadQuestionDecks();
-  questionsArray = questionDeck1.concat(questionDeck2.concat(questionDeck3));
+  deckSelect = document.getElementById("decks").value;
+  if (deckSelect === "All") {
+    questionsArray = questionDeck1.concat(questionDeck2.concat(questionDeck3));
+  } else if (deckSelect === "On The Rocks") {
+    questionsArray = questionDeck1;
+  } else if (deckSelect === "Happy Hour") {
+    questionsArray = questionDeck2;
+  } else if (deckSelect === "Last Call") {
+    questionsArray = questionDeck3;
+  }
   numQuestions = questionsArray.length;
   questionText = document.getElementById("question");
   questionText.innerHTML =
