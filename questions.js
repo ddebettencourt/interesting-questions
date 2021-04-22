@@ -29,6 +29,23 @@ function getQuestion() {
   console.log("ran function");
 }
 
+function showRules() {
+  rulesButton = document.getElementById("rulesButton");
+  rulesText = document.getElementById("rules");
+  if (rulesButton.innerHTML === "Show Rules") {
+    rulesButton.innerHTML = "Hide Rules";
+    rulesText.innerHTML = `Take turns being the dealer. The dealer assigns two players to interview each other.
+    Have one of the players start - they press the 'Get Question' button and ask the other player the question. <br></br>
+    Then, the players switch positions and the second player asks the first player a question. <br></br>
+    The dealer then judges which of the answers is more satisfying, and gives that person a point. Then, play
+    continues clockwise, and the next person becomes the dealer. (Try not to ask one person two questions
+        before everyone else has been asked one.)`;
+  } else {
+    rulesButton.innerHTML = "Show Rules";
+    rulesText.innerHTML = "";
+  }
+}
+
 function loadQuestionDecks() {
   questionDeck1 = [
     "What animal am I most like? Describe how this species and I are similar.",
