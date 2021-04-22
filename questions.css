@@ -81,4 +81,11 @@ option {
     height: 150px;
     font-size: 60px;
   }
+  #deck-text {
+    font-size: 80px;
+  }
+  #decks {
+    font-size: 80px;
+    height: 95px;
+  }
 }
