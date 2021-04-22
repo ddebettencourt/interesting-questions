@@ -67,6 +67,7 @@ body {
   height: 60px;
   margin: auto;
   margin-left: 30px;
+  -webkit-appearance: none;
 }
 option {
   font-family: Roboto;
@@ -75,6 +76,7 @@ option {
 #rules {
   font-size: 30px;
 }
+
 @media screen and (orientation: portrait) {
   .question {
     font-size: 80px;
