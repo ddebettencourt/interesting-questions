@@ -20,7 +20,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: #303030;
 }
 .container {
   display: flex;
@@ -62,7 +62,7 @@ body {
   width: 350px;
   font-size: 50px;
   color: white;
-  background-color: black;
+  background-color: #303030;
   font-family: Roboto;
   height: 60px;
   margin: auto;
@@ -71,6 +71,9 @@ body {
 option {
   font-family: Roboto;
   font-size: 50px;
+}
+#rules {
+  font-size: 30px;
 }
 @media screen and (orientation: portrait) {
   .question {
@@ -88,5 +91,8 @@ option {
     width: 520px;
     font-size: 80px;
     height: 95px;
+  }
+  #rules {
+    font-size: 60px;
   }
 }
