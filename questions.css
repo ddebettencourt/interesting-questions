@@ -1,6 +1,6 @@
 .main-button {
   background-color: white;
-  font-family: Georgia;
+  font-family: Roboto;
   font-size: 50px;
   width: 50%;
   height: 20%;
@@ -41,7 +41,7 @@ body {
   margin: auto;
   margin-top: 75px;
   font-size: 50px;
-  font-family: Georgia;
+  font-family: Roboto;
   color: white;
   word-wrap: normal;
   text-align: center;
@@ -55,7 +55,7 @@ body {
 }
 #deck-text {
   color: white;
-  font-family: Georgia;
+  font-family: Roboto;
   font-size: 50px;
 }
 #decks {
@@ -63,13 +63,13 @@ body {
   font-size: 50px;
   color: white;
   background-color: black;
-  font-family: Georgia;
+  font-family: Roboto;
   height: 60px;
   margin: auto;
   margin-left: 30px;
 }
 option {
-  font-family: Georgia;
+  font-family: Roboto;
   font-size: 50px;
 }
 @media screen and (orientation: portrait) {
